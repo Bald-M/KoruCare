@@ -14,16 +14,16 @@
         android:src="@drawable/awai_logo" />
 
     <!-- slot -->
-<!--    <androidx.fragment.app.FragmentContainerView-->
-<!--        android:id="@+id/nav_host_fragment"-->
-<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="0dp"-->
-<!--        android:layout_weight="2"-->
-<!--        app:defaultNavHost="true"-->
-<!--        app:layout_constraintTop_toBottomOf="parent"-->
-<!--        app:navGraph="@navigation/nav_graph"-->
-<!--        tools:layout_editor_absoluteX="97dp" />-->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        app:defaultNavHost="true"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:navGraph="@navigation/nav_graph"
+        tools:layout_editor_absoluteX="97dp" />
 
     <!-- Share components -->
     <!-- Bottom Nav Menu -->
@@ -34,8 +34,5 @@
         android:layout_gravity="start"
         android:background="@color/white"
         app:menu="@menu/bottom_nav_menu" />
-
-
-
 
 </LinearLayout>
