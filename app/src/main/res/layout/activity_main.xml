@@ -9,9 +9,57 @@
 
     <!-- Top Logo -->
     <ImageView
+        android:id="@+id/awaiLogo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/awai_logo" />
+        android:layout_height="120dp"
+        android:src="@drawable/awai_logo"
+        android:visibility="visible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/korucareLogo"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/korucareLogoImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/korucare_logo"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/korucareTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:text="Koru Care"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/korucareLogoImg"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Meet the team"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/korucareTitle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- slot -->
     <androidx.fragment.app.FragmentContainerView
