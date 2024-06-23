@@ -85,14 +85,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Opal Jones"
                     app:layout_constraintStart_toEndOf="@+id/imageView2"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:text="Here is some cool stuff about the person"
                     app:layout_constraintStart_toStartOf="@+id/textView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -118,7 +117,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Zihan Zhang"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -150,7 +149,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Kadin Torr"
                     app:layout_constraintStart_toEndOf="@+id/imageView4"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -182,7 +181,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Xingeng Li"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -215,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Kyle Walker"
                     app:layout_constraintStart_toEndOf="@+id/imageView6"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -247,7 +246,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Ethan Deakin"
+                    android:text="Kailun Huang"
                     app:layout_constraintStart_toEndOf="@+id/imageView7"
                     app:layout_constraintTop_toTopOf="parent" />
 

@@ -23,6 +23,12 @@
         <action
             android:id="@+id/action_homeFragment_to_escortingFragment"
             app:destination="@id/escortingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_legalRightFragment"
+            app:destination="@id/legalRightFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
@@ -47,5 +53,17 @@
         android:name="com.example.korucare.EscortingFragment"
         android:label="EscortingFragment"
         tools:layout="@layout/fragment_escorting"
+        />
+    <fragment
+        android:id="@+id/legalRightFragment"
+        android:name="com.example.korucare.LegalRightFragment"
+        android:label="LegalRightFragment"
+        tools:layout="@layout/fragment_legal_right"
+        />
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.korucare.QuizFragment"
+        android:label="QuizFragment"
+        tools:layout="@layout/fragment_quiz"
         />
 </navigation>

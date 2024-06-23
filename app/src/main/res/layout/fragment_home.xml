@@ -9,7 +9,7 @@
         android:id="@+id/infoBtn"
         android:layout_width="350dp"
         android:layout_height="100dp"
-        android:text="Information"
+        android:text="@string/info_button"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -27,7 +27,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:textAllCaps="false"
-        android:text="Process of Escorting"
+        android:text="@string/process_of_escorting_button"
         android:textSize="30sp"
         android:textStyle="bold"
         android:background="@color/light_blue"
@@ -40,7 +40,7 @@
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
-        android:text="Your legal rights"
+        android:text="@string/legal_rights_button"
         android:textAllCaps="false"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -54,7 +54,7 @@
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
-        android:text="Take Quiz"
+        android:text="@string/quiz_button"
         android:textAllCaps="false"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -62,6 +62,5 @@
         app:layout_constraintEnd_toEndOf="@+id/legalRightsBtn"
         app:layout_constraintStart_toStartOf="@+id/legalRightsBtn"
         app:layout_constraintTop_toBottomOf="@+id/legalRightsBtn" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

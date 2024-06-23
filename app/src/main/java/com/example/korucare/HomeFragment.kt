@@ -12,7 +12,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
         val infoBtn = view.findViewById<Button>(R.id.infoBtn)
         val processOfEscorting = view.findViewById<Button>(R.id.processOfEscortBtn)
-
+        val legalRightBtn = view.findViewById<Button>(R.id.legalRightsBtn)
+        val quizBtn = view.findViewById<Button>(R.id.quizBtn)
 
         infoBtn.setOnClickListener{
             findNavController().navigate(R.id.action_homeFragment_to_informationFragment)
@@ -21,5 +22,14 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         processOfEscorting.setOnClickListener{
             findNavController().navigate(R.id.action_homeFragment_to_escortingFragment)
         }
+
+        legalRightBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_legalRightFragment)
+        }
+
+        quizBtn.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_quizFragment)
+        }
+
     }
 }

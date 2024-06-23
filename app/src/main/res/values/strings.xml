@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">KoruCare</string>
+    <string name="greeting">Hello!</string>
+    <string name="welcome_message">Welcome to our app.</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="info_button">Information</string>
+    <string name="process_of_escorting_button">Process of Escorting</string>
+    <string name="legal_rights_button">Your legal rights</string>
+    <string name="quiz_button">Take Quiz</string>
 </resources>

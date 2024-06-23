@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taku Tonoa</string>
+    <string name="greeting">Kia ora!</string>
+    <string name="welcome_message">Nau mai ki tō mātou taupānga.</string>
+    <string name="button_ok">Āe</string>
+    <string name="button_cancel">Whakakore</string>
+    <string name="info_button">Mōhiohio</string>
+    <string name="process_of_escorting_button">Tukanga o te Ārahi</string>
+    <string name="legal_rights_button">Ōu mana ā-ture</string>
+    <string name="quiz_button">Mahia te Uiui</string>
+</resources>
