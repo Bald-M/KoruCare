@@ -17,6 +17,12 @@
         <action
             android:id="@+id/action_homeFragment_to_infoFragment"
             app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_informationFragment"
+            app:destination="@id/informationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_escortingFragment"
+            app:destination="@id/escortingFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
@@ -29,5 +35,17 @@
         android:name="com.example.korucare.InfoFragment"
         android:label="InfoFragment"
         tools:layout="@layout/fragment_info"
+        />
+    <fragment
+        android:id="@+id/informationFragment"
+        android:name="com.example.korucare.InformationFragment"
+        android:label="InformationFragment"
+        tools:layout="@layout/fragemnt_information"
+        />
+    <fragment
+        android:id="@+id/escortingFragment"
+        android:name="com.example.korucare.EscortingFragment"
+        android:label="EscortingFragment"
+        tools:layout="@layout/fragment_escorting"
         />
 </navigation>

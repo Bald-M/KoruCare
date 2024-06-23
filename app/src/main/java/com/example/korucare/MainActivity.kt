@@ -42,13 +42,13 @@ class MainActivity : AppCompatActivity() {
 
                 R.id.homeFragment -> {
                     navHostFragment.findNavController().navigate(R.id.homeFragment)
-                    switchLogoVisibility(false)
+                    switchLogoVisibility(true)
                     true
                 }
 
                 R.id.searchFragment -> {
                     navHostFragment.findNavController().navigate(R.id.searchFragment)
-                    switchLogoVisibility(false)
+                    switchLogoVisibility(true)
                     true
                 }
 
