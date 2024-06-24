@@ -11,7 +11,7 @@
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rights_title"
+        android:text="@string/types_title"
         android:textSize="36sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toTopOf="@id/buttonReadMore">
 
-        <!-- Box containing the right information -->
+        <!-- Box containing the escorting information -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutInfo"
             android:layout_width="match_parent"
@@ -38,11 +38,12 @@
             android:background="@drawable/rounded_corners_p"
             android:padding="16dp">
 
+            <!-- Scheduled Escorts Section -->
             <TextView
                 android:id="@+id/textViewTypesH1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rights_h1"
+                android:text="@string/types_h1"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,18 +53,19 @@
                 android:id="@+id/textViewTypesTxt1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rights_txt1"
+                android:text="@string/types_txt1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textViewTypesH1"
                 app:layout_constraintBottom_toTopOf="@id/textViewTypesH2"
                 android:layout_marginTop="8dp" />
 
+            <!-- Unscheduled Escorts Section -->
             <TextView
                 android:id="@+id/textViewTypesH2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rights_h2"
+                android:text="@string/types_h2"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -74,10 +76,80 @@
                 android:id="@+id/textViewTypesTxt2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rights_txt2"
+                android:text="@string/types_txt2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/textViewTypesH2"
+                app:layout_constraintBottom_toTopOf="@id/textViewTypesH3"
+                android:layout_marginTop="8dp" />
+
+            <!-- After-hours Escorts Section -->
+            <TextView
+                android:id="@+id/textViewTypesH3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_h3"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesTxt2"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textViewTypesTxt3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_txt3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesH3"
+                app:layout_constraintBottom_toTopOf="@id/textViewTypesH4"
+                android:layout_marginTop="8dp" />
+
+            <!-- Escorting by Road Section -->
+            <TextView
+                android:id="@+id/textViewTypesH4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_h4"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesTxt3"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textViewTypesTxt4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_txt4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesH4"
+                app:layout_constraintBottom_toTopOf="@id/textViewTypesH5"
+                android:layout_marginTop="8dp" />
+
+            <!-- Escorting by Air Section -->
+            <TextView
+                android:id="@+id/textViewTypesH5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_h5"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesTxt4"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textViewTypesTxt5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/types_txt5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textViewTypesH5"
+                app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginTop="8dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
