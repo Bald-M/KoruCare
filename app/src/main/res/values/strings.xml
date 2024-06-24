@@ -46,4 +46,10 @@
     <string name="rights_txt1">When Oranga Tamariki applies for Care or Protection Orders, parents retain specific legal rights related to escorting their children during various stages of the process. Parents are entitled to be informed about the court applications and are given copies of relevant documents, including any temporary custody orders. During court proceedings, parents can challenge or accept the orders and plans proposed by Oranga Tamariki, which may include aspects of escorting their child to court or other mandated appointments. Furthermore, in cases where the Family Court appoints a lawyer to represent the child, parents are notified of the lawyer’s identity, ensuring they can participate in the process, including any escorting duties that might be required.</string>
     <string name="rights_h2">Legal Rights of Caregivers</string>
     <string name="rights_txt2">Caregivers, while not having the same legal status as parents or guardians, are involved in the escorting process under specific guidelines set forth by Oranga Tamariki. In instances where a child is placed in a care and protection residence, caregivers are informed of the child’s rights and the necessary procedures, including escorting the child to and from various appointments or court hearings. The national care standards also ensure that caregivers are supported in their role, which includes understanding their responsibilities in escorting the child and maintaining their well-being. Caregivers must adhere to the detailed plans and orders from Oranga Tamariki, which specify their roles and any escorting duties to ensure the child\'s safety and proper care.</string>
+
+    <!-- Quiz -->
+    <string name="congratulation">Congratulations!</string>
+    <string name="completed_quiz">You completed the quiz</string>
+    <string name="finish">Finish</string>
+
 </resources>

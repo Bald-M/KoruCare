@@ -46,4 +46,9 @@
     <string name="rights_txt1">I te wā ka tono a Oranga Tamariki mō ngā Tono Tiaki, Tiaki rānei, ka noho tonu ngā tika ture motuhake a ngā mātua e pā ana ki te hāpainga o ā rātou tamariki i roto i ngā wāhanga rerekē o te tukanga. Me whakamōhio ngā mātua mō ngā tono a te kōti, ā, ka tukuna ngā kape o ngā tuhinga e hāngai ana, tae atu ki ngā tono kaitiaki mō tēnei wā poto. I roto i ngā tukanga kōti, ka taea e ngā mātua te whakahē, te whakaae rānei ki ngā tono me ngā mahere kua tukuna e Oranga Tamariki, ka taea pea ngā wāhanga o te hāpainga i ā rātou tamariki ki te kōti, ki ērā atu hui kua whakaritea. Ano hoki, i ngā wā e tohu ana te Kōti Whānau i tētahi rōia hei kanohi mō te tamaiti, ka whakamōhiotia ngā mātua mō te ingoa o taua rōia, kia taea ai te whai wāhi ki te tukanga, tae atu ki ngā mahi hāpainga me hiahiatia.</string>
     <string name="rights_h2">Ngā Tika Ture o ngā Kaitiaki</string>
     <string name="rights_txt2">Ahakoa kāore e rite ngā mana ture o ngā kaitiaki ki ngā mātua, ngā kaitiaki rānei, kei te whai wāhi tonu rātou ki te tukanga hāpainga i raro i ngā aratohu motuhake kua whakaritea e Oranga Tamariki. I ngā wā ka whakanohoia he tamaiti ki tētahi whare tiaki, tiaki rānei, ka whakamōhiotia ngā kaitiaki mō ngā tika o te tamaiti me ngā tukanga e tika ana, tae atu ki te hāpainga o te tamaiti ki ngā wāhi huihuinga, ki ngā whakawātanga kōti rānei. Ko ngā paerewa tiaki ā-motu ka whakamanahia hoki kia tautokona ngā kaitiaki i roto i ā rātou mahi, tae atu ki te mōhio ki ā rātou haepapa ki te hāpainga o te tamaiti me te tiaki i tōna oranga. Me whai ngā kaitiaki i ngā mahere me ngā whakahau a Oranga Tamariki, e whakaatu ana i ā rātou mahi me ngā hāpainga kia pai te tiaki me te haumaru o te tamaiti.</string>
+
+    <!-- Quiz -->
+    <string name="congratulation">Ngā mihi!</string>
+    <string name="completed_quiz">Kua oti i a koe te pātaitai</string>
+    <string name="finish">Mutu</string>
 </resources>

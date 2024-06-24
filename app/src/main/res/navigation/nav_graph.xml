@@ -68,11 +68,26 @@
         android:name="com.example.korucare.QuizFragment"
         android:label="QuizFragment"
         tools:layout="@layout/fragment_quiz"
-        />
+        >
+        <action
+            android:id="@+id/action_quizFragment_to_quizCompletedFragment"
+            app:destination="@id/quizCompletedFragment" />
+    </fragment>
     <fragment
         android:id="@+id/processOfEscortingFragment"
         android:name="com.example.korucare.ProcessOfEscortingFragment"
         android:label="ProcessOfEscortingFragment"
         tools:layout="@layout/fragment_process_of_escorting"
         />
+    <fragment
+        android:id="@+id/quizCompletedFragment"
+        android:name="com.example.korucare.QuizCompletedFragment"
+        android:label="QuizCompletedFragment"
+        tools:layout="@layout/fragment_quiz_completed"
+        >
+        <action
+            android:id="@+id/action_quizCompletedFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            />
+    </fragment>
 </navigation>
