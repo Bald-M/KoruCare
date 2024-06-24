@@ -4,8 +4,45 @@
     <string name="welcome_message">Nau mai ki tō mātou taupānga.</string>
     <string name="button_ok">Āe</string>
     <string name="button_cancel">Whakakore</string>
+    <string name="read_more">Tirohia atu</string>
+
+    <!-- Home -->
     <string name="info_button">Mōhiohio</string>
     <string name="process_of_escorting_button">Tukanga o te Ārahi</string>
     <string name="legal_rights_button">Ōu mana ā-ture</string>
     <string name="quiz_button">Mahia te Uiui</string>
+
+    <!-- Information -->
+    <string name="info_hd1">He aha te Pīkau?</string>
+    <string name="info_txt1">Ko te Pīkau he tukanga mo te tango, te whakawhiti, me te hiki tamariki me rangatahi mai i tō rātou wāhi tiaki. Ina whiriwhiri i ngā kaimahi pīkau hei whakahaere i te pīkau, me whakarite kia kaua ngā kaimahi e mahi i te wā roa rawa, kia kore ai e mauiui, e ngenge, e māharahara rānei ka ārai i tō rātou āhei ki te whakahaere tika i ā rātou mahi pīkau.</string>
+    <string name="info_hd2">Ngā Momo Pīkau</string>
+    <string name="info_txt2">Ko ngā pīkau kua whakaritea mō ngā whakawātanga i te kōti, ngā huihuinga, me ngā whakawhitinga kua whakamaheretia, ā, ko ngā pīkau ohotata ka urupare ki ngā āhuatanga ohorere pērā i ngā putanga ohorere i te kōti. Ko ngā pīkau ā-wā whā, ka tīmata i ngā wā motuhake, me whai aromatawai mōrearea me te whakaaetanga. Ka whakarite ngā kaimahi pīkau i te haumaru waka me te whai i ngā ture haere, me ngā okiokinga ārai kei te whakarite i te haumaru o ngā tamariki. I roto i ngā ohotata, ka āta aro ngā kaimahi pīkau ki te oranga o ngā tamariki, me te whakapā wawe atu ki ngā kaiwhakahaere.</string>
+
+    <!-- Escorting -->
+    <string name="escorting_title">Te Haerehere</string>
+    <string name="escorting_txt">Te haerehere ka kawemai, ka tārewa, ka tōhiti atu i ngā tamariki me ngā rangatahi i ō rātou wāhi noho o nāianei. Me āta whakarite kia kore ngā kaimahi e mahi nui rawa, e ngoikore rānei, e pāngia ai te āheitanga ki te mahi haerehere, ā, ko te ngoikore o ngā hāora katoa i mahia i taua wiki, i taua rā rānei. Me mārama anō te roa e tārewa ai te haerenga, tae atu ki te wāhanga rānei e noho pā ana te tamariki me te rangatahi.\n\nI te wā e kōwhiri ai i ngā kaimahi mō te haerehere, me mārama anō mā wai i te huarahi mō ā rātou whakaakoranga. Ko te whakaakoranga ka pā ana ki te whakamātautau kēnga, me te whakamārama anō ki ngā mahi whakatupu ārai, pēnei i te Haepapa whakarite Oranga Tamariki (MAPA) me te haeretanga aere mō ngā kaimahi, te whakaakoranga i ngā huarahi ārai mō te haere mā ngā huinga māngai. Ko te tau o ngā kaimahi ka tautoko i te haerehere tika mā te mōhio ki ēnei whakaaro.\n\nI te whakarite mō te haerehere mā ngā huarahi, ka hiahiatia te mātakitaki ki te Kaupapa Haerehere me ngā aratohu o te takiwā aere. Ka āta whakaoti kia kore ai ngā kaimahi e haere i te wā e ngoikore ana. Tērā pea ka whakaritea kia haere mai ākina atu ngā kaimahi mai i te kāinga hou ki te haere ki te hiku, kia iti haere ai te wā e haereere ai ngā kaimahi katoa. Ka āhei te tautoko i te nui o ngā kaimahi whai wāhanga e haere tonu ana, kia āwhina i ngā wā mōrearea i roto i te haerenga, ā, kia whakapakari hoki i te oranga o te katoa e uru nei.</string>
+
+    <!-- Types of Escorts -->
+    <string name="types_title">Ngā Momo Ārahi</string>
+    <string name="types_h1">Ngā Ārahi kua Whakaritea</string>
+    <string name="types_txt1">Ko ngā ārahi kua whakaritea mō ngā mahi pēnei i te whakawhiti ā-roto, ngā whakawātanga i te kōti, ngā hui ā-whānau, ngā whakaritenga kua whakaritea, ngā whakatūnga mauhere i raro i te wāhanga 238(1)(d), me ngā whakatūnga kaitiaki i raro i te wāhanga 235.</string>
+    <string name="types_h2">Ngā Ārahi Kāore i Whakaritea</string>
+    <string name="types_txt2">Ko ngā ārahi kāore i whakaritea e puta mai ana hei whakautu ki ngā ohotata, ngā kaupapa ohorere rānei, pēnei i ngā whakaritenga kāore i whakaritea, ngā putanga ohorere o te kōti, me ngā whakatūnga mauhere ohorere i raro i te wāhanga 238(1)(d) rānei, te kaitiakitanga i raro i te wāhanga 235.</string>
+    <string name="types_h3">Ngā Ārahi i ngā Haora Ā-muri</string>
+    <string name="types_txt3">Ka tū ngā ārahi i ngā haora ā-muri i waenga i te 5pm me te 8.30am i ngā rā mahi, puta noa i ngā mutunga wiki me ngā hararei tūmatanui. Ko ngā ārahi kāore i whakaritea i ngā haora ā-muri ka hiahiatia he aromatawai mōrearea me te whakaaetanga mai i te kaiwhakahaere o te National Contact Centre, te kaiwhakahaere ahumahi rangatahi rānei i ngā haora ā-muri.</string>
+    <string name="types_h4">Te Ārahi Mā te Rori</string>
+    <string name="types_txt4">Me whakarite ngā kaimahi ārahi he pūhiko kei te kī tonu, he wāhitau whakapā mō ngā ohotata, he hinu nui, me ngā whakaritenga waka haumaru. Ka noho te tamaiti, te rangatahi rānei ki muri me tētahi kaimahi ārahi, ā, ka whai ngā kawa haumaru i ngā ohotata, ngā tūnga kua whakaritea, me te whakatutuki i ngā kaupapa here haere.</string>
+    <string name="types_h5">Te Ārahi Mā te Rererangi</string>
+    <string name="types_txt5">Me tino whakamahere me te aromatawai mōrearea i ngā ārahi mā te rererangi. Me whai ngā kaimahi ārahi i ngā kawa o te rererangi, te takiuru wawe, te kawe i ngā tuhinga tika, me te whai i ngā tohutohu a te kapa rererangi. Me rīpoata wawe ngā aituā, ā, ka taea te whakamahi i ngā mekameka ringa anake i raro i te tohutohu a te pailati mō ngā āhuatanga motuhake.</string>
+
+    <!-- Process of Escorting -->
+    <string name="proc_title">Ngā Mahi Tiaki</string>
+    <string name="proc_text">Kāore i te mutunga o te whakaritenga i te pōwhiri ki a Oranga Tamariki, ki te pirihimana rānei, mēnā ka whakaaro koe kua pāngia, kua tākiri rānei tētahi tamaiti (te mamae, te kino, te ngāwari rānei, te mōhio). Ka whiwhi ngā rātonga oranga tamariki i ngā pūrongo mai i ngā tāngata e āwangawanga ana mō te raru o tētahi tamaiti.\n\nI ngā wāhanga, ka tae mai ngā pūrongo i ngā mema o te hapori. I ētahi wā, e taea pea e ngā kaimahi nā te kāwanatanga, nā te kōti hoki te tākiri – hei tauira, te Whare Whānau mēnā e pā ana ki tētahi tamaiti kei roto i tētahi take i te kōti.\n\nKa taea te waihanga pūrongo ki a Oranga Tamariki ki tō rātou pūkoro pūkoro pūkoro pūkoro (0508 FAMILY - 0508 326 459). Ka tae ngā rātonga pūkoro whakawhiti i ngā īmēra, ngā reta me ngā reta.\n\nKa taea e koe te whakaae me Oranga Tamariki (mēnā, me tētahi ratonga rānei pēnei i a Barnardos) kia tiaki i tō tamaiti mō tētahi wā, e taea ai ki ētahi wā e tae atu ki te tau.\n\nTaea te tākiri i te tamaiti, te rangatahi rānei mō te oranga (māmae, hauora, haumaru rānei) o te tamaiti, te rangatahi, tētahi kaimahi tākiri rānei, te iwi.\n\nI ngā katoa, me mātau ka tākiri rānei te tamaiti, te rangatahi mā tētahi ara e whakatū a, e tiaki i tō rātou mana, ā, e whakapakari i tō rātou oranga.\n\nTaea te kōrero kāore e pāngia te katoa o ngā pūrongo mā te whakaritenga pūrongo, me mātau te tamaiti, te rangatahi rānei me tō rātou whānau katoa ki te tūtohu whakatū, pēnei i te marae tawhiti, kaore i te reo o te whānau, kāore i te whakamārama ki te ngāwari, ā, me ētahi ara rongoā.</string>
+
+    <!-- Your Legal Rights -->
+    <string name="rights_title">Ko ngā tika o tōu?</string>
+    <string name="rights_h1">Ngā Tika Ture o ngā Mātua</string>
+    <string name="rights_txt1">I te wā ka tono a Oranga Tamariki mō ngā Tono Tiaki, Tiaki rānei, ka noho tonu ngā tika ture motuhake a ngā mātua e pā ana ki te hāpainga o ā rātou tamariki i roto i ngā wāhanga rerekē o te tukanga. Me whakamōhio ngā mātua mō ngā tono a te kōti, ā, ka tukuna ngā kape o ngā tuhinga e hāngai ana, tae atu ki ngā tono kaitiaki mō tēnei wā poto. I roto i ngā tukanga kōti, ka taea e ngā mātua te whakahē, te whakaae rānei ki ngā tono me ngā mahere kua tukuna e Oranga Tamariki, ka taea pea ngā wāhanga o te hāpainga i ā rātou tamariki ki te kōti, ki ērā atu hui kua whakaritea. Ano hoki, i ngā wā e tohu ana te Kōti Whānau i tētahi rōia hei kanohi mō te tamaiti, ka whakamōhiotia ngā mātua mō te ingoa o taua rōia, kia taea ai te whai wāhi ki te tukanga, tae atu ki ngā mahi hāpainga me hiahiatia.</string>
+    <string name="rights_h2">Ngā Tika Ture o ngā Kaitiaki</string>
+    <string name="rights_txt2">Ahakoa kāore e rite ngā mana ture o ngā kaitiaki ki ngā mātua, ngā kaitiaki rānei, kei te whai wāhi tonu rātou ki te tukanga hāpainga i raro i ngā aratohu motuhake kua whakaritea e Oranga Tamariki. I ngā wā ka whakanohoia he tamaiti ki tētahi whare tiaki, tiaki rānei, ka whakamōhiotia ngā kaitiaki mō ngā tika o te tamaiti me ngā tukanga e tika ana, tae atu ki te hāpainga o te tamaiti ki ngā wāhi huihuinga, ki ngā whakawātanga kōti rānei. Ko ngā paerewa tiaki ā-motu ka whakamanahia hoki kia tautokona ngā kaitiaki i roto i ā rātou mahi, tae atu ki te mōhio ki ā rātou haepapa ki te hāpainga o te tamaiti me te tiaki i tōna oranga. Me whai ngā kaitiaki i ngā mahere me ngā whakahau a Oranga Tamariki, e whakaatu ana i ā rātou mahi me ngā hāpainga kia pai te tiaki me te haumaru o te tamaiti.</string>
 </resources>

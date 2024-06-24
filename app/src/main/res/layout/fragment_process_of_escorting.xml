@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:padding="8dp">
 
-<!-- Types of Escorts title -->
+    <!-- Escorting title -->
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/rights_title"
+        android:text="@string/proc_title"
         android:textSize="36sp"
         android:textStyle="bold"
         android:textColor="@android:color/black"
@@ -28,9 +28,11 @@
         app:layout_constraintTop_toBottomOf="@id/textViewTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/buttonReadMore">
+        app:layout_constraintBottom_toTopOf="@id/buttonReadMore"
+        android:requiresFadingEdge="vertical"
+        android:fadingEdgeLength="25dp">
 
-        <!-- Box containing the right information -->
+        <!-- Box containing the escorting information -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutInfo"
             android:layout_width="match_parent"
@@ -39,46 +41,14 @@
             android:padding="16dp">
 
             <TextView
-                android:id="@+id/textViewTypesH1"
+                android:id="@+id/textViewInfo"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/rights_h1"
-                android:textStyle="bold"
+                android:text="@string/escorting_txt"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textViewTypesTxt1"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/rights_txt1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textViewTypesH1"
-                app:layout_constraintBottom_toTopOf="@id/textViewTypesH2"
-                android:layout_marginTop="8dp" />
-
-            <TextView
-                android:id="@+id/textViewTypesH2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/rights_h2"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textViewTypesTxt1"
-                android:layout_marginTop="16dp" />
-
-            <TextView
-                android:id="@+id/textViewTypesTxt2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="@string/rights_txt2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/textViewTypesH2"
-                android:layout_marginTop="8dp" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -92,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/read_more"
-        android:onClick="onEscortingReadMoreClicked"
+        android:onClick="onProcessReadMoreClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

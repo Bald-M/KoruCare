@@ -9,58 +9,61 @@
         android:id="@+id/infoBtn"
         android:layout_width="350dp"
         android:layout_height="100dp"
+        android:background="@color/light_blue"
         android:text="@string/info_button"
         android:textAllCaps="false"
-        android:textStyle="bold"
         android:textSize="30sp"
-        android:background="@color/light_blue"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
-
-    <Button
-        android:id="@+id/processOfEscortBtn"
-        android:layout_width="350dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
-        android:textAllCaps="false"
-        android:text="@string/process_of_escorting_button"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:background="@color/light_blue"
-        app:layout_constraintEnd_toEndOf="@+id/infoBtn"
-        app:layout_constraintStart_toStartOf="@+id/infoBtn"
-        app:layout_constraintTop_toBottomOf="@+id/infoBtn" />
-
-    <Button
-        android:id="@+id/legalRightsBtn"
-        android:layout_width="350dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/legal_rights_button"
-        android:textAllCaps="false"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:background="@color/light_blue"
-        app:layout_constraintEnd_toEndOf="@+id/processOfEscortBtn"
-        app:layout_constraintStart_toStartOf="@+id/processOfEscortBtn"
-        app:layout_constraintTop_toBottomOf="@+id/processOfEscortBtn" />
+        app:layout_constraintVertical_bias="0.091" />
 
     <Button
         android:id="@+id/quizBtn"
         android:layout_width="350dp"
         android:layout_height="100dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/light_blue"
         android:text="@string/quiz_button"
         android:textAllCaps="false"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:background="@color/light_blue"
         app:layout_constraintEnd_toEndOf="@+id/legalRightsBtn"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/legalRightsBtn"
         app:layout_constraintTop_toBottomOf="@+id/legalRightsBtn" />
+
+    <Button
+        android:id="@+id/legalRightsBtn"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/light_blue"
+        android:text="@string/legal_rights_button"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/processOfEscortBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/processOfEscortBtn"
+        app:layout_constraintTop_toBottomOf="@+id/processOfEscortBtn" />
+
+    <Button
+        android:id="@+id/processOfEscortBtn"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/light_blue"
+        android:text="@string/process_of_escorting_button"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/infoBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/infoBtn"
+        app:layout_constraintTop_toBottomOf="@+id/infoBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
