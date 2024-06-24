@@ -7,7 +7,7 @@
 
     <Button
         android:id="@+id/infoBtn"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@color/light_blue"
         android:text="@string/info_button"
@@ -23,7 +23,7 @@
 
     <Button
         android:id="@+id/quizBtn"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="8dp"
         android:background="@color/light_blue"
@@ -38,7 +38,7 @@
 
     <Button
         android:id="@+id/legalRightsBtn"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="12dp"
         android:background="@color/light_blue"
@@ -53,7 +53,7 @@
 
     <Button
         android:id="@+id/processOfEscortBtn"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_marginTop="8dp"
         android:background="@color/light_blue"
