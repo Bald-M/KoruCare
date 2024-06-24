@@ -29,6 +29,9 @@
         <action
             android:id="@+id/action_homeFragment_to_quizFragment"
             app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_processOfEscortingFragment"
+            app:destination="@id/processOfEscortingFragment" />
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
@@ -65,5 +68,11 @@
         android:name="com.example.korucare.QuizFragment"
         android:label="QuizFragment"
         tools:layout="@layout/fragment_quiz"
+        />
+    <fragment
+        android:id="@+id/processOfEscortingFragment"
+        android:name="com.example.korucare.ProcessOfEscortingFragment"
+        android:label="ProcessOfEscortingFragment"
+        tools:layout="@layout/fragment_process_of_escorting"
         />
 </navigation>

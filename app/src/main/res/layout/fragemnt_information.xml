@@ -33,26 +33,23 @@
             android:id="@+id/textView8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
             android:text="Escorting is the process of removing, relocating, and uplifting tamariki and rangatahi from their current place of care. When choosing escort kaimahi to carry out an escort, we must ensure that kaimahi are not working to the point of tiredness, fatigue or stress that hinders their ability to carry out their escort responsibilities."
             app:layout_constraintStart_toStartOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-        <Button
-            android:id="@+id/readBtn1"
-=======
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:paddingBottom="16dp"
-            android:text="@string/info_txt1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+<!--        <Button-->
+<!--            android:id="@+id/readBtn1"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:paddingBottom="16dp"-->
+<!--            android:text="@string/info_txt1"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/textView2" />-->
 
         <Button
             style="@style/BlueButtonStyle"
->>>>>>> cb206680518bb5981ab7c2513ef7d93fc2033ffa
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -71,15 +68,11 @@
         android:background="@drawable/rounded_corners_p"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        app:layout_constraintVertical_bias="0.259">
-=======
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
->>>>>>> cb206680518bb5981ab7c2513ef7d93fc2033ffa
+        app:layout_constraintVertical_bias="0.259" />
+
 
         <TextView
             android:id="@+id/textView3"
@@ -98,7 +91,6 @@
             android:id="@+id/textView9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-<<<<<<< HEAD
             android:text="Scheduled escorts are those that have been pre-arranged, whether during working hours or after-hours. This may include internal transfers between residences, transport to and from planned Youth Court hearings, transport to and from a family group conference, all planned appointments for te tamaiti or rangatahi, escorts for section 238(1)(d) remand placements, and custody placements under section 235."
             app:layout_constraintStart_toStartOf="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -107,16 +99,13 @@
             android:id="@+id/readBtn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:text="Read More"
             android:textColor="@color/white"
             android:background="@color/light_blue"
-=======
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:paddingBottom="16dp"
-            android:text="@string/info_txt2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -128,10 +117,9 @@
             android:layout_marginTop="16dp"
             android:text="@string/read_more"
             app:layout_constraintBottom_toBottomOf="parent"
->>>>>>> cb206680518bb5981ab7c2513ef7d93fc2033ffa
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+
